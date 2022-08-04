@@ -1,0 +1,49 @@
+body{
+  background-image: linear-gradient(rgba(218, 218, 218, 0.829), rgba(36, 166, 206, 0.829));
+}
+
+.cta .cta-inner {
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+.img2 {
+  height: 300px;
+  width: 450px;
+}
+
+*, ::after, ::before {
+  box-sizing: none;
+}
+
+#mainNav .navbar-nav .nav-item.active .nav-link {
+  color: rgba(17, 172, 219, 0.829);
+}
+
+.p-5 {
+  padding: 1.5rem !important;
+}
+
+.text-primary {
+  color: #000000 !important;
+}
+
+#mainNav{
+  background-color: black;
+}
+
+.footer {
+  background-color: black;
+}
+
+.zoom {
+    padding: 50px;
+    transition: transform .2s;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.7); /* IE 9 */
+    -webkit-transform: scale(1.7); /* Safari 3-8 */
+    transform: scale(1.7); 
+  }
